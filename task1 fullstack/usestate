@@ -1,0 +1,14 @@
+import React from "react";
+import TodoList {TodoList1,todolist2} from"../ useState/adding items";
+import adding new ,{todolist1,todolist2} from "../useState/adding new items"
+
+function useState(){
+    return(
+       <div>
+        <Todolist1 />
+        <Todolist2 /> 
+        <adding new items/>
+     </div>
+    );
+}
+export defult useState;

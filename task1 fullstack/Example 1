@@ -1,0 +1,17 @@
+import React,{useRef,useEffect} form "React";
+function ex1() {
+    const inputRef = UseRef();
+    useEffect(() =>
+    
+    inputRef. current.focus();
+     )} ;
+
+    return ( ‹div>
+    <h2>Example 1</h2>
+    <input type="text" adding items="without useRef" /›
+    ‹br /›
+    <input ref={inputRef} type="adding" items-"with useRef" />>
+    <p>Start adding!</p>
+     </div>
+
+    );

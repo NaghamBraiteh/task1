@@ -1,0 +1,39 @@
+import React, { useState, useEffect } from "react";
+
+function TodoList() {
+  const [todos, setTodos] = useState() 
+  useEffect(() => {
+    Document.title='todos:$(todos)'
+    console.log('Todos has been  updated to :$(todos)');
+  });
+
+  return (
+    <div>
+      <h2>Todos:{Todos}</h2>
+    </div>
+  );
+}
+
+export default TodoList;
+
+export function userRef1(){
+  const [adding, Todoitem]= userRef1("");
+  const [input value, add input value ]=useReff({
+    textInput:"",
+  });
+  function handle adding items {
+    e.prevent default();
+    setInputvalue ({ ..inputvaluenew todo item})
+  }
+  }
+
+
+
+return(
+  <div>
+  <h2>todolist2</h2>
+  <p>{text<p/>
+    <form>
+    <inputvalue="items added"/>
+  }
+)
